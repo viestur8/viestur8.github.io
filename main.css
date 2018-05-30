@@ -1,0 +1,204 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Chathura|Gruppo|Raleway|Slabo+27px|Titillium+Web|Vast+Shadow');
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Gruppo', cursive;
+  font-family: 'Chathura', sans-serif;
+}
+hr {
+  color: orange;
+}
+header {
+  padding-top: 80px;
+  border-top: 3px solid #FFD700;
+}
+#logo, {
+  float: left;
+  cursor: pointer;cleaning apx vaporcleaning apx vaporcleaning apx vapor
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+#logo h1 {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  color: #111111;
+}
+#logo h2, {
+  margin-top: -20px;
+  padding-left: 2px;
+  font-family: "Titillium Web", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-decoration: none;
+  text-transform: none;
+  text-rendering: auto;
+}
+#overview h3 {
+  font-family: 'Gruppo', cursive, Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+  color: #555555;
+  margin-top: -5px;
+  margin-bottom: 24px;
+}
+nav {
+  padding: 20px;
+  overflow: auto;
+}
+nav h1 {
+  float: left;
+}
+nav ul {
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  margin: 0 10px;
+}
+.currentPage, button.currentPage:hover {
+  color: #b8ccf7 !important;
+}
+ul {
+  display: list-item;
+  list-style-type: none;
+  margin: 1em 0;
+  padding-left: 40px;
+}
+li {
+  display: list-item;
+  text-align: inherit;
+}
+/* Center website */
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+.row {
+  margin: 8px -16px;
+}
+/* Add padding BETWEEN each column (if you want) */
+
+.row, .row>.column {
+  padding: 8px;
+}
+/* Create four equal columns that floats next to each other */
+
+.column {
+  float: left;
+  width: 25%;
+}
+/* Clear floats after rows */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carousel-inner img {
+  width: 100%;
+  margin: auto;
+}
+/* Carousel Carousel CSS */
+.carousel-caption h3 {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #fff;
+}
+/* Content */
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-collapse a {
+    display: none;
+  }
+  .navbar-collapse a.icon {
+    float: right;
+    display: block;
+  }
+  .navbar-brnd {
+    display: none;
+  }
+  .navbar-collapse.responsive {
+    position: relative;
+  }
+  .navbar-collapse.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-collapse.responsive ul li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .content {
+    width: 100%;
+  }
+  [class*="co-"] {
+    width: 45%;
+  }
+  .content-2 {
+    width: 100%;
+  }
+  .carousel-caption {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  [class*="co-"] {
+    width: 100%;
+  }
+  .carousel-caption {
+    display: none;
+  }
+}

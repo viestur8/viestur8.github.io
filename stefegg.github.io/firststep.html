@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="hsrf.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Alike|Fira+Sans+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Donate Now</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#ededed;">
+      <p class="navbar-brnd"> The Human Suffering Relief Foundation </p>
+      <div class="navbar-collapse" id="myTopnav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="firststep.html">Donate Now</a>
+          </li>
+          <!-- <li class="nav-item dropdown"> -->
+            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
+            <!-- More -->
+            <!-- </a> -->
+            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"> Events </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"> Action </a>
+            </div>
+          </li> -->
+      </ul>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+    </div>
+    </nav>
+  <div class="content-3">
+    <h1 style="text-align:center;">Donate Now!</h1>
+    <div class="donatetalk"><p>Please fill out the below form to donate to HSRF. Your funds will immediately go to fight human suffering on a global scale. Please select an appropriate amount below. Please also be so kind as to provide HSRF with your Full Name, Address, Birthdate, and Social Security Number. We need this information because we have to know it, it will help us help you suffer less. You may also include a personal note from yourself with your donation. By law HSRF is required to inform you that these notes will not be read.</p><p>The organization will provide you with a special thank you message, depending on the amount you have chosen. Please consider whether or not you enjoy human suffering before you decide which amount is right for you. Giving anything less than the maximum amount means you are garbage. Thank you!</p></div>
+    <div class="donatebox">
+
+        <p><label id="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label id="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."></p>
+        <p><label id="address">Address</label>
+        <input type="text" id="address" name="address" placeholder="Your full address..">
+        <label id="birthdate">Birthdate</label>
+        <input type="text" id="birthdate" name="birthdate" placeholder="Your full birthdate.."></p>
+        <p><label id="socialsecurity">Social Security Number</label>
+        <input type="text" id="socialsecurity" name="socialsecurity" placeholder="Your social security number..."></p>
+        <p><label for="amount">Amount</label>
+        <select id="donate-amount" name="donate-amount">
+          <option value="1000000">1000000 $</option>
+          <option value="100000">100000 $</option>
+          <option value="10000">10000 $</option>
+        </select></p>
+        <label for="subject">Note</label>
+        <textarea id="subject" name="subject" placeholder="Include a note with your donation..." style="height:10%"></textarea>
+        <button id="pay-btn" type="submit">Submit</button>
+      <p id="display-result"></p>
+    </div>
+  </div>
+
+    <div class="botnav">
+      <nav class="navbar justify-content-center navbar-expand-lg navbar-light" style="background-color:#ededed;">
+      <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="firststep.html">Donate Now</a>
+          </li>
+        </ul>
+    </nav>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="hsfr.js" charset="utf-8"></script>
+</body>
+</html>
